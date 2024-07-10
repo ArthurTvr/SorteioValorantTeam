@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio de Times</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sorteio de Times</h1>
+        <div class="input-container">
+            <label for="names">Digite os nomes das pessoas (separados por vírgula):</label>
+            <input type="text" id="names" placeholder="Ex: Ana, João, Maria, Pedro, etc.">
+        </div>
+        <button onclick="sortTeams()">Sortear Times</button>
+        <div class="results">
+            <h2>Time 1</h2>
+            <ul id="team1"></ul>
+            <h2>Time 2</h2>
+            <ul id="team2"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
